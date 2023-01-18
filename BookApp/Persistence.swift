@@ -9,12 +9,38 @@ import CoreData
 
 struct PersistenceController {
     static let shared = PersistenceController()
-
+    
+    static var preview2: PersistenceController = {
+        let result = PersistenceController(inMemory: true)
+        let viewContext = result.container.viewContext
+        for _ in 0..<10 {
+            let newItem = BookItem(context: viewContext)
+            newItem.title = ""
+            newItem.urlImg = ""
+            newItem.desc = ""
+            newItem.authors = [""]
+        }
+            do {
+                try viewContext.save()
+            } catch {
+                let nsError = error as NSError
+                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            }
+        return result
+    }()
+    
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
+            let newItem = Book(context: viewContext)
+            newItem.id = 1
+            newItem.years = "2012"
+            newItem.author = "author"
+            newItem.category = "category"
+            newItem.synopsie = "synopsie"
+            newItem.title = "title"
+            newItem.ranking = ""
             newItem.timestamp = Date()
         }
         do {

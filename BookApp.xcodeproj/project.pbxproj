@@ -13,6 +13,16 @@
 		1716145E297827CA00CF6A36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1716145D297827CA00CF6A36 /* Preview Assets.xcassets */; };
 		17161460297827CA00CF6A36 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716145F297827CA00CF6A36 /* Persistence.swift */; };
 		17161463297827CA00CF6A36 /* BookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17161461297827CA00CF6A36 /* BookApp.xcdatamodeld */; };
+		1716146E29782A1700CF6A36 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716146D29782A1700CF6A36 /* AddBookView.swift */; };
+		1716147029782A3B00CF6A36 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716146F29782A3B00CF6A36 /* BookDetailView.swift */; };
+		1716147229782A9F00CF6A36 /* AddBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716147129782A9F00CF6A36 /* AddBookViewModel.swift */; };
+		1716147429782B0200CF6A36 /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716147329782B0200CF6A36 /* BookResponse.swift */; };
+		1716147629782B8B00CF6A36 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716147529782B8B00CF6A36 /* TabBarView.swift */; };
+		1716147829782BA000CF6A36 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716147729782BA000CF6A36 /* HomePage.swift */; };
+		1716147A29782BD500CF6A36 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716147929782BD500CF6A36 /* DownloadView.swift */; };
+		1716147C29782D2800CF6A36 /* BookApiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716147B29782D2800CF6A36 /* BookApiDetailView.swift */; };
+		1716147F29782F7100CF6A36 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1716147E29782F7100CF6A36 /* SDWebImageSwiftUI */; };
+		171614812978301E00CF6A36 /* DetailDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171614802978301E00CF6A36 /* DetailDownloadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +33,16 @@
 		1716145D297827CA00CF6A36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1716145F297827CA00CF6A36 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		17161462297827CA00CF6A36 /* BookApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookApp.xcdatamodel; sourceTree = "<group>"; };
+		1716146D29782A1700CF6A36 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		1716146F29782A3B00CF6A36 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		1716147129782A9F00CF6A36 /* AddBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewModel.swift; sourceTree = "<group>"; };
+		1716147329782B0200CF6A36 /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
+		1716147529782B8B00CF6A36 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		1716147729782BA000CF6A36 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		1716147929782BD500CF6A36 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		1716147B29782D2800CF6A36 /* BookApiDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApiDetailView.swift; sourceTree = "<group>"; };
+		171614802978301E00CF6A36 /* DetailDownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDownloadView.swift; sourceTree = "<group>"; };
+		171614822978328A00CF6A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1716147F29782F7100CF6A36 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +76,11 @@
 		17161455297827C900CF6A36 /* BookApp */ = {
 			isa = PBXGroup;
 			children = (
+				171614822978328A00CF6A36 /* Info.plist */,
 				17161456297827C900CF6A36 /* BookAppApp.swift */,
-				17161458297827C900CF6A36 /* ContentView.swift */,
+				1716146B297828E200CF6A36 /* Models */,
+				1716146A297828D500CF6A36 /* ViewModel */,
+				17161469297828CE00CF6A36 /* Views */,
 				1716145A297827CA00CF6A36 /* Assets.xcassets */,
 				1716145F297827CA00CF6A36 /* Persistence.swift */,
 				17161461297827CA00CF6A36 /* BookApp.xcdatamodeld */,
@@ -71,6 +95,37 @@
 				1716145D297827CA00CF6A36 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17161469297828CE00CF6A36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17161458297827C900CF6A36 /* ContentView.swift */,
+				1716146D29782A1700CF6A36 /* AddBookView.swift */,
+				1716146F29782A3B00CF6A36 /* BookDetailView.swift */,
+				1716147529782B8B00CF6A36 /* TabBarView.swift */,
+				1716147729782BA000CF6A36 /* HomePage.swift */,
+				1716147929782BD500CF6A36 /* DownloadView.swift */,
+				1716147B29782D2800CF6A36 /* BookApiDetailView.swift */,
+				171614802978301E00CF6A36 /* DetailDownloadView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1716146A297828D500CF6A36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1716147129782A9F00CF6A36 /* AddBookViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1716146B297828E200CF6A36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1716147329782B0200CF6A36 /* BookResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +144,9 @@
 			dependencies = (
 			);
 			name = BookApp;
+			packageProductDependencies = (
+				1716147E29782F7100CF6A36 /* SDWebImageSwiftUI */,
+			);
 			productName = BookApp;
 			productReference = 17161453297827C900CF6A36 /* BookApp.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 1716144A297827C900CF6A36;
+			packageReferences = (
+				1716147D29782F7100CF6A36 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 17161454297827C900CF6A36 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,9 +205,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				17161463297827CA00CF6A36 /* BookApp.xcdatamodeld in Sources */,
+				1716147629782B8B00CF6A36 /* TabBarView.swift in Sources */,
 				17161460297827CA00CF6A36 /* Persistence.swift in Sources */,
 				17161459297827C900CF6A36 /* ContentView.swift in Sources */,
+				171614812978301E00CF6A36 /* DetailDownloadView.swift in Sources */,
 				17161457297827C900CF6A36 /* BookAppApp.swift in Sources */,
+				1716147229782A9F00CF6A36 /* AddBookViewModel.swift in Sources */,
+				1716147A29782BD500CF6A36 /* DownloadView.swift in Sources */,
+				1716146E29782A1700CF6A36 /* AddBookView.swift in Sources */,
+				1716147829782BA000CF6A36 /* HomePage.swift in Sources */,
+				1716147C29782D2800CF6A36 /* BookApiDetailView.swift in Sources */,
+				1716147029782A3B00CF6A36 /* BookDetailView.swift in Sources */,
+				1716147429782B0200CF6A36 /* BookResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +348,7 @@
 				DEVELOPMENT_TEAM = 8YR2KQ4MQ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +378,7 @@
 				DEVELOPMENT_TEAM = 8YR2KQ4MQ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1716147D29782F7100CF6A36 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1716147E29782F7100CF6A36 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1716147D29782F7100CF6A36 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		17161461297827CA00CF6A36 /* BookApp.xcdatamodeld */ = {
