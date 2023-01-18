@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17161457297827C900CF6A36 /* BookAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17161456297827C900CF6A36 /* BookAppApp.swift */; };
-		17161459297827C900CF6A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17161458297827C900CF6A36 /* ContentView.swift */; };
+		17161459297827C900CF6A36 /* ListBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17161458297827C900CF6A36 /* ListBookView.swift */; };
 		1716145B297827CA00CF6A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1716145A297827CA00CF6A36 /* Assets.xcassets */; };
 		1716145E297827CA00CF6A36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1716145D297827CA00CF6A36 /* Preview Assets.xcassets */; };
 		17161460297827CA00CF6A36 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716145F297827CA00CF6A36 /* Persistence.swift */; };
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		17161453297827C900CF6A36 /* BookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17161456297827C900CF6A36 /* BookAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppApp.swift; sourceTree = "<group>"; };
-		17161458297827C900CF6A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17161458297827C900CF6A36 /* ListBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBookView.swift; sourceTree = "<group>"; };
 		1716145A297827CA00CF6A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1716145D297827CA00CF6A36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1716145F297827CA00CF6A36 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		17161469297828CE00CF6A36 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				17161458297827C900CF6A36 /* ContentView.swift */,
+				17161458297827C900CF6A36 /* ListBookView.swift */,
 				1716146D29782A1700CF6A36 /* AddBookView.swift */,
 				1716146F29782A3B00CF6A36 /* BookDetailView.swift */,
 				1716147529782B8B00CF6A36 /* TabBarView.swift */,
@@ -207,7 +207,7 @@
 				17161463297827CA00CF6A36 /* BookApp.xcdatamodeld in Sources */,
 				1716147629782B8B00CF6A36 /* TabBarView.swift in Sources */,
 				17161460297827CA00CF6A36 /* Persistence.swift in Sources */,
-				17161459297827C900CF6A36 /* ContentView.swift in Sources */,
+				17161459297827C900CF6A36 /* ListBookView.swift in Sources */,
 				171614812978301E00CF6A36 /* DetailDownloadView.swift in Sources */,
 				17161457297827C900CF6A36 /* BookAppApp.swift in Sources */,
 				1716147229782A9F00CF6A36 /* AddBookViewModel.swift in Sources */,
